@@ -1,0 +1,55 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(228, 222, 222);
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(247, 236, 236);
+    font-size: 22px;
+    padding: 20px 20px;
+}
+
+.imagen img{
+    width: 100px;
+    height: 80px;
+    justify-content: left;
+}
+
+
+/* nav a:hover{
+    color: rgb(47, 196, 255);
+    transform: scale(1.2);
+} */
+.desktopp{
+    background-color: rgb(128, 33, 33);
+}
+
+nav .desktopp{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    pad: 0 50px;
+}
+
+nav .logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    float:left;
+}
+
+.bita{
+    width: 30px;
+    height: 30px;
+
+}
+.bita img{
+    width: 900px ;
+}
